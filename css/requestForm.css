@@ -1,0 +1,55 @@
+.service_request_section {
+    padding: 60px 0; /* Adjust padding for top and bottom */
+    background-color: var(--light); /* Background color for the section */
+}
+
+.request-form {
+    max-width: 600px; /* Limit the width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+    background-color: var(--white); /* Background color for the form */
+    padding: 30px; /* Inner padding for the form */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.request-form .form-group {
+    margin-bottom: 20px; /* Spacing between form groups */
+}
+
+.request-form label {
+    font-weight: bold; /* Bold text for labels */
+    display: block; /* Make labels take the full width */
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+.request-form .form-control {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Inner padding for inputs */
+    border: 1px solid var(--gray); /* Border color for inputs */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.request-form .btn {
+    background-color: var(--blue); /* Button background color */
+    color: var(--white); /* Button text color */
+    padding: 10px 20px; /* Inner padding for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.request-form .btn:hover {
+    background-color: var(--dark); /* Darken button on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .service_request_section {
+        padding: 40px 15px; /* Reduced padding for small screens */
+    }
+
+    .request-form {
+        padding: 20px; /* Reduced inner padding */
+    }
+}
